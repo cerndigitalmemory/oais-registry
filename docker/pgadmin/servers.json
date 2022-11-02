@@ -1,0 +1,14 @@
+{
+    "Servers": {
+      "1": {
+        "Name": "oais-registry_db",
+        "Group": "Servers",
+        "Host": "oais-registry_db_1",
+        "Port": 5432,
+        "MaintenanceDB": "postgres",
+        "Username": "oais-registry",
+        "SSLMode": "prefer"
+      }
+    }
+  }
+  
