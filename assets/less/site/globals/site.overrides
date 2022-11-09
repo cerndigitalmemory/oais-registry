@@ -1,0 +1,5 @@
+.outer-navbar {
+  background-image: linear-gradient(12deg, #1b1c1d, #1b1c1d 15%, rgba(86,13,13, 0.69));
+  background-color: #1b1c1d;
+  border-color: transparent;
+}

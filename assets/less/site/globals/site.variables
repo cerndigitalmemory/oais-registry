@@ -1,0 +1,9 @@
+/* Override @primaryColor to override the site-wide accents. */
+@primaryColor: #1b1c1d;
+
+@navbarBackgroundImage: linear-gradient(12deg,#1b1c1d,#1b1c1d 15%,rgba(86,13,13,.10))
+
+
+/* Footer */
+@footerLightColor: #1b1c1d;
+@footerDarkColor: #1b1c1d;
