@@ -73,3 +73,8 @@ data/.minio.sys
 
 # Celery
 celerybeat-schedule
+
+*.dir
+*.dat
+*.bak
+docker/
