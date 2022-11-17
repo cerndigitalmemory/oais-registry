@@ -1,0 +1,8 @@
+
+{% for value in field_value %} 
+
+<b>{{value.get("type", "Unknown")}}</b>: <a href='{{value.get("link", "Unknown")}}'>Download</a> (timestamp: {{value.get("timestamp", "Unknown")}}, description: {{value.get("add_details", "Unknown")}}, path: {{value.get("path", "Unknown")}} ) 
+
+{{ ", " if not loop.last }}
+
+{% endfor %}
